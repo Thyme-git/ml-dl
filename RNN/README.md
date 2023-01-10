@@ -9,6 +9,7 @@
 * 股票价格预测（富时100指数）
     ![FTSE 100 Index](./ftse100.png)
     $x_t ~ P(x_t|x_{t-1}, ..., x_{1})$
+    
     即$x_t$与$x_{t-1}, ..., x_{1}$有关
 
 ## 训练方法
@@ -47,5 +48,3 @@
   * 将参数的梯度$\vec g$的模限制在$\theta$内
   * $\vec g = min(1, {\theta \over |\vec g|}) \cdot \vec g$
   * $\theta$一般取1
-
-  
